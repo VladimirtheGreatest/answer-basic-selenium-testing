@@ -49,7 +49,7 @@ suite(function(env) {
 
 
         after(async function() {
-            //driver.quit();
+            driver.quit();
         });
     });
 });
