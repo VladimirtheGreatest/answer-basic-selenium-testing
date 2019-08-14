@@ -1,16 +1,11 @@
 # answer-basic-selenium-testing
 
 
-Test Case 1:  To perform Test case 1, please click on form authentication on Menu 
- 
-Test case 1: Automate Form Authentication  PASSED
- 
-• Scenario 1: Try to login with correct username and wrong password and assert login validation • Scenario 2: Try to login with incorrect username and correct password and assert login validation • Scenario 3: Try to login with correct username and password and then logout 
- 
-Test Case 2: To perform Test case 2, please click on Infinite scroll on Menu  PASSED
- 
-Test case 2: scroll to the bottom of the page twice and scroll back to the top of the page and assert "Infinite Scroll" text. 
- 
-Test Case 3: To perform Test case 3, please click on Key presses on Menu   PASSED
- 
-Test case 3: Click on 4 keys and assert the text displayed after every key press
+Instructions As you can see I use require('chromedriver') which means I installed chromedriver locally since my terminal was bugging, if you have your chromedriver version installed globally please make sure you first uninstall it that might be causing issues to run it.
+
+You can clone this repo, open terminal git clone copy the address of this git repo (see the video if you dont know how).
+open your terminal and press cd selenium-advanced-testing after cloning .
+First npm install selenium-webdriver, (make sure you are in the correct folder path)
+In the same path npm install chromedriver (make sure you dont have chrome driver installed globally, if so uninstall it first before installing locally.)
+npm install mocha 6.Make sure you are still in the same path, mocha.
+I will include the video as well just in case
